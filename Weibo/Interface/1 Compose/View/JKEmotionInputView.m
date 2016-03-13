@@ -9,7 +9,7 @@
 #import "JKEmotionInputView.h"
 #import <YYKit/YYKit.h>
 #import "JKStatusHelper.h"
-#import "WBModel.h"
+#import "JKStatusModel.h"
 #import "FullyHorizontalFlowLayout.h" // 调整表情布局顺序
 
 // 高度

@@ -16,7 +16,7 @@
 #import "JKAccountTool.h"
 #import "JKAccount.h"
 #import <YYKit/YYKit.h>
-#import "WBModel.h"
+#import "JKStatusModel.h"
 #import "JKTableView.h"
 #import "JKStatusComposeController.h"
 #import "JKNavigationController.h"

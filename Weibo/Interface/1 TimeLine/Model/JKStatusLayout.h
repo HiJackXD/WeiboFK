@@ -6,7 +6,7 @@
 //  Copyright © 2016年 HiJack. All rights reserved.
 //
 #import "YYKit.h"
-#import "WBModel.h"
+#import "JKStatusModel.h"
 #import <Foundation/Foundation.h>
 
 

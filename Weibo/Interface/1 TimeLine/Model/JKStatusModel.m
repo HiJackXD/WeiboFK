@@ -7,7 +7,7 @@
 //
 
 
-#import "WBModel.h"
+#import "JKStatusModel.h"
 #import "JKStatusHelper.h"
 
 @implementation JKUser

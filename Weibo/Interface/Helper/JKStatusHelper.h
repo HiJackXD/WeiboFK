@@ -7,7 +7,7 @@
 //
 
 #import "YYKit.h"
-#import "WBModel.h"
+#import "JKStatusModel.h"
 
 @interface JKStatusHelper : NSObject
 

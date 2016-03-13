@@ -7,7 +7,7 @@
 //
 
 #import "JKStatusHelper.h"
-#import "WBModel.h"
+#import "JKStatusModel.h"
 #import <YYKit/YYKit.h>
 
 @implementation JKStatusHelper

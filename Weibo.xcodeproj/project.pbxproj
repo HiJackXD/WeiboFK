@@ -19,7 +19,6 @@
 		162B62691C856F4100AC4623 /* JKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162B62391C856F4100AC4623 /* JKTabBarController.m */; };
 		162B626A1C856F4100AC4623 /* JKPopoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162B62401C856F4100AC4623 /* JKPopoverController.m */; };
 		162B626B1C856F4100AC4623 /* JKHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162B62431C856F4100AC4623 /* JKHomeViewController.m */; };
-		162B626F1C856F4100AC4623 /* WBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 162B624C1C856F4100AC4623 /* WBModel.m */; };
 		162B62701C856F4100AC4623 /* JKStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 162B624F1C856F4100AC4623 /* JKStatusCell.m */; };
 		162B62711C856F4100AC4623 /* JKStatusFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 162B62511C856F4100AC4623 /* JKStatusFooterView.m */; };
 		162B62721C856F4100AC4623 /* JKStatusFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 162B62521C856F4100AC4623 /* JKStatusFooterView.xib */; };
@@ -32,6 +31,7 @@
 		1638CDC01C8ABD1300DE041F /* JKEmotionInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1638CDBF1C8ABD1300DE041F /* JKEmotionInputView.m */; };
 		16748B641C75AB4300FE7AE0 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16748B631C75AB4300FE7AE0 /* Reveal.framework */; };
 		169731AE1C91CD5400C5CC6D /* FullyHorizontalFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 169731AC1C91CD5400C5CC6D /* FullyHorizontalFlowLayout.m */; };
+		16DDAE921C956A39008D24FC /* JKStatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DDAE911C956A39008D24FC /* JKStatusModel.m */; };
 		16E726D71C354A3900326F54 /* WeiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E726D61C354A3900326F54 /* WeiboTests.m */; };
 		16E726E21C354A3900326F54 /* WeiboUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E726E11C354A3900326F54 /* WeiboUITests.m */; };
 		16E726F71C354FB700326F54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E726F11C354FB700326F54 /* AppDelegate.m */; };
@@ -84,8 +84,6 @@
 		162B62401C856F4100AC4623 /* JKPopoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPopoverController.m; sourceTree = "<group>"; };
 		162B62421C856F4100AC4623 /* JKHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKHomeViewController.h; sourceTree = "<group>"; };
 		162B62431C856F4100AC4623 /* JKHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKHomeViewController.m; sourceTree = "<group>"; };
-		162B624B1C856F4100AC4623 /* WBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBModel.h; sourceTree = "<group>"; };
-		162B624C1C856F4100AC4623 /* WBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBModel.m; sourceTree = "<group>"; };
 		162B624E1C856F4100AC4623 /* JKStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKStatusCell.h; sourceTree = "<group>"; };
 		162B624F1C856F4100AC4623 /* JKStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKStatusCell.m; sourceTree = "<group>"; };
 		162B62501C856F4100AC4623 /* JKStatusFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKStatusFooterView.h; sourceTree = "<group>"; };
@@ -112,6 +110,8 @@
 		16D602171C47D54E00D85C27 /* libSDWebImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSDWebImage.a; path = "../../../../Library/Developer/Xcode/DerivedData/Weibo-abdgpjwlgqknxsaxexexaljiozju/Build/Products/Debug-iphonesimulator/libSDWebImage.a"; sourceTree = "<group>"; };
 		16D602181C47D54E00D85C27 /* libSVProgressHUD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSVProgressHUD.a; path = "../../../../Library/Developer/Xcode/DerivedData/Weibo-abdgpjwlgqknxsaxexexaljiozju/Build/Products/Debug-iphonesimulator/libSVProgressHUD.a"; sourceTree = "<group>"; };
 		16D602191C47D54E00D85C27 /* libYYKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libYYKit.a; path = "../../../../Library/Developer/Xcode/DerivedData/Weibo-abdgpjwlgqknxsaxexexaljiozju/Build/Products/Debug-iphonesimulator/libYYKit.a"; sourceTree = "<group>"; };
+		16DDAE901C956A39008D24FC /* JKStatusModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKStatusModel.h; sourceTree = "<group>"; };
+		16DDAE911C956A39008D24FC /* JKStatusModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKStatusModel.m; sourceTree = "<group>"; };
 		16E726B91C354A3900326F54 /* Weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16E726CD1C354A3900326F54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16E726D21C354A3900326F54 /* WeiboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeiboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -351,8 +351,8 @@
 		162B62441C856F4100AC4623 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				162B624B1C856F4100AC4623 /* WBModel.h */,
-				162B624C1C856F4100AC4623 /* WBModel.m */,
+				16DDAE901C956A39008D24FC /* JKStatusModel.h */,
+				16DDAE911C956A39008D24FC /* JKStatusModel.m */,
 				162B62771C8570AF00AC4623 /* JKStatusLayout.h */,
 				162B62781C8570AF00AC4623 /* JKStatusLayout.m */,
 			);
@@ -807,12 +807,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				162B626F1C856F4100AC4623 /* WBModel.m in Sources */,
 				162B622C1C856F0F00AC4623 /* JKAccount.m in Sources */,
 				162B622F1C856F0F00AC4623 /* JKTableView.m in Sources */,
 				162B62881C85CB1900AC4623 /* JKComposeToolbar.m in Sources */,
 				16E726F81C354FB700326F54 /* main.m in Sources */,
 				162B62741C856F4100AC4623 /* JKDiscoverViewController.m in Sources */,
+				16DDAE921C956A39008D24FC /* JKStatusModel.m in Sources */,
 				16E726F71C354FB700326F54 /* AppDelegate.m in Sources */,
 				1638CDC01C8ABD1300DE041F /* JKEmotionInputView.m in Sources */,
 				162B62681C856F4100AC4623 /* JKNavigationController.m in Sources */,

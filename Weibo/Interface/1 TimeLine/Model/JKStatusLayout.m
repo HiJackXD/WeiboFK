@@ -8,7 +8,7 @@
 
 #import "JKStatusLayout.h"
 #import "JKStatusHelper.h"
-#import "WBModel.h"
+#import "JKStatusModel.h"
 
 
 @implementation WBTextLinePositionModifier
@@ -96,8 +96,8 @@
     [self _layoutProfile];
     [self _layoutText];
     [self _layoutPic];
-    [self _layoutRepost];
-    [self _layoutRepostPic];
+//    [self _layoutRepost];
+//    [self _layoutRepostPic];
     [self _layoutToolbar];
     
     _height = 0;
@@ -488,7 +488,7 @@
     
 }
 
--
+
 
 
 
