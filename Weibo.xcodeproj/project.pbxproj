@@ -29,7 +29,6 @@
 		162B62821C8573AE00AC4623 /* JKStatusComposeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 162B62811C8573AE00AC4623 /* JKStatusComposeController.m */; };
 		162B62881C85CB1900AC4623 /* JKComposeToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 162B62871C85CB1900AC4623 /* JKComposeToolbar.m */; };
 		1638CDC01C8ABD1300DE041F /* JKEmotionInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1638CDBF1C8ABD1300DE041F /* JKEmotionInputView.m */; };
-		16748B641C75AB4300FE7AE0 /* Reveal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16748B631C75AB4300FE7AE0 /* Reveal.framework */; };
 		169731AE1C91CD5400C5CC6D /* FullyHorizontalFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 169731AC1C91CD5400C5CC6D /* FullyHorizontalFlowLayout.m */; };
 		16DDAE921C956A39008D24FC /* JKStatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DDAE911C956A39008D24FC /* JKStatusModel.m */; };
 		16E726D71C354A3900326F54 /* WeiboTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E726D61C354A3900326F54 /* WeiboTests.m */; };
@@ -103,7 +102,6 @@
 		162B62871C85CB1900AC4623 /* JKComposeToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKComposeToolbar.m; sourceTree = "<group>"; };
 		1638CDBE1C8ABD1300DE041F /* JKEmotionInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKEmotionInputView.h; sourceTree = "<group>"; };
 		1638CDBF1C8ABD1300DE041F /* JKEmotionInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKEmotionInputView.m; sourceTree = "<group>"; };
-		16748B631C75AB4300FE7AE0 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		169731AB1C91CD5400C5CC6D /* FullyHorizontalFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullyHorizontalFlowLayout.h; sourceTree = "<group>"; };
 		169731AC1C91CD5400C5CC6D /* FullyHorizontalFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullyHorizontalFlowLayout.m; sourceTree = "<group>"; };
 		16D602161C47D54E00D85C27 /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "../../../../Library/Developer/Xcode/DerivedData/Weibo-abdgpjwlgqknxsaxexexaljiozju/Build/Products/Debug-iphonesimulator/libAFNetworking.a"; sourceTree = "<group>"; };
@@ -137,7 +135,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				578EEA5C7FA7F5E6E3CD85E5 /* libPods.a in Frameworks */,
-				16748B641C75AB4300FE7AE0 /* Reveal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,7 +582,6 @@
 		16E726F61C354FB700326F54 /* Vendor(第三方框架) */ = {
 			isa = PBXGroup;
 			children = (
-				16748B631C75AB4300FE7AE0 /* Reveal.framework */,
 			);
 			path = "Vendor(第三方框架)";
 			sourceTree = "<group>";
